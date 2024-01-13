@@ -12,7 +12,7 @@ const MYDB = process.env.MYDB;
 
 
 const corsOptions = {
-  origin: 'https://jade-kashata-f6de35.netlify.app/',
+  origin: 'https://jade-kashata-f6de35.netlify.app',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
